@@ -20,6 +20,13 @@
 int main() {
     stdio_init_all();
 
+    sleep_ms(5000);
+
+    while (WIFI_SSID == "" || WIFI_PASSWORD == "") {
+        printf("Please set up SSID and PASSWORD.\n");
+        return 1;
+    }    
+
     if (cyw43_arch_init()) {
         printf("failed to initialise\n");
         return 1;
