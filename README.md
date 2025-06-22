@@ -2,8 +2,8 @@
 
 ## AJUSTES
 - Modificar en CMakeLists.txt
-set(WIFI_SSID "ssid")
-set(WIFI_PASSWORD "ssid_password")
+- set(WIFI_SSID "ssid")
+- set(WIFI_PASSWORD "ssid_password")
 
 - Al iniciar con RUN, elegir "Threadsafe Background"
 ![image](https://github.com/user-attachments/assets/8874f34e-ca01-433a-b1af-8318d722eb3a)
