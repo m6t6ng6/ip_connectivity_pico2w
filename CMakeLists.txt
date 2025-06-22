@@ -30,8 +30,8 @@ include(pico_sdk_import.cmake)
 
 project(picow_ip_client C CXX ASM)
 
-set(WIFI_SSID "M6t6ng6")
-set(WIFI_PASSWORD "peperina11")
+set(WIFI_SSID "")
+set(WIFI_PASSWORD "")
 
 # Initialise the Raspberry Pi Pico SDK
 pico_sdk_init()
